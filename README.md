@@ -1,4 +1,4 @@
-# New Next Project
+# New Next Project : The Peet
 
 ### Local Development
 
