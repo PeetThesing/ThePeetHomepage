@@ -12,6 +12,7 @@ export default function HomePage() {
     <Animation style={{ left: position.x, top: position.y }}/>
       <h1>Peet Thesing</h1>
       <p>Autorin / Wendo-Trainerin / Webentwicklerin</p>
+      <div class="stars"></div>
      </BusinessCard>  
   );
 };
@@ -31,11 +32,13 @@ justify-content: center;
 
 const Animation = styled.div`
   position: absolute;
-  width: 20rem;
-  height: 20rem;
-  background-color: rgba(52, 152, 219, 0.5);
-  border-radius: 50%;
-  
+  width: 5rem;
+  height: 5rem;
+  background-color: #012e38;
+  /* border-radius: 50%; */
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    opacity: 20%;
+  opacity: 20%;
   transform: translate(-50%, -50%);
   transition: transform 0.2s ease-in-out;
 `

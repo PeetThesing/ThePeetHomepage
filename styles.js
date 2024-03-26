@@ -10,7 +10,8 @@ export default createGlobalStyle`
   body {
     margin: 0;
     font-family: system-ui;
-    background-color: black;
+    background-image: 
+    radial-gradient(circle, #012e38 25%, #275863 75%);
     color: white;
   }
 `;
