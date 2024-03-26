@@ -11,7 +11,16 @@ export default createGlobalStyle`
     margin: 0;
     font-family: system-ui;
     background-image: 
-    radial-gradient(circle, #012e38 25%, #275863 75%);
+    radial-gradient(circle, var(--primary-color) 25%, var(--light-color) 75%);
     color: white;
   }
+
+  :root {
+    --primary-color: #012e38;
+    --white: white;
+    --light-color: #275863;
+  }
+
+
 `;
+
