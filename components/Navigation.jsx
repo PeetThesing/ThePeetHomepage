@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styled from "styled-components";
-import { Icon } from "@iconify/react";
 import useLocalStorageState from "use-local-storage-state";
 export default function Navigation() {
   const [url, setUrl] = useLocalStorageState("url", { defaultValue: "home" });
@@ -16,9 +15,9 @@ export default function Navigation() {
       Home
       </StyledLink>
       <StyledLink
-        href="/author"
+        href="/autorin"
         onClick={() => {
-          setUrl("author");
+          setUrl("autorin");
         }}
         aria-label="Buch und Texte"
       >

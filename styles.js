@@ -10,8 +10,9 @@ export default createGlobalStyle`
 
   body {
     color: var(--primary-color);
-    margin-top: 5rem 0 0 0;
+    /* margin-top: 3rem 0 0 0; */
     background-color: var(--white);
+    font-size: 2rem;
     position: relative;
 display: flex;
 flex-flow: column wrap;
@@ -23,14 +24,13 @@ padding: 1rem
   }
 
   :root {
-    --primary-color: #012e38;
+    --primary-color: #1d1a3d;
     --white: white;
-    --light-color: #275863;
+    --light-color: #9c93fa;
   }
 
-
+  h2 {
+size: 1rem;
+color: var(--primary-color);
+  }
 `;
-
-//Parkplatz
-// background-image: 
-// radial-gradient(circle, var(--primary-color) 25%, var(--light-color) 75%);
