@@ -10,7 +10,6 @@ export default createGlobalStyle`
 
   body {
     color: var(--primary-color);
-    /* margin-top: 3rem 0 0 0; */
     background-color: var(--white);
     font-size: 2rem;
     position: relative;

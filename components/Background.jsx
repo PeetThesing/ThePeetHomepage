@@ -17,8 +17,7 @@ sizes='20vw'
   height={474}
   alt="MAUS"
   />
-     </StyledBackground>
-
+</StyledBackground>
     )
 }
 

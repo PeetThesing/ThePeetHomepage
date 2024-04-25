@@ -1,7 +1,6 @@
 
 import Navigation from '@/components/Navigation.jsx';
-import Background from '@/components/Background';
-import { StyledText, StyledTextsection, StyledLink,  SingleImageLeft, SingleImageRight} from '@/components/Layout';
+import { StyledText, StyledTextsection, StyledLink,  SingleImageLeft, SingleImageRight} from '@/styledcomponents/StyledEverything';
 import Image from 'next/image';
 
 
@@ -29,7 +28,6 @@ alt="Bild vom Buchcover, Schrift auf Hintergrund"
 <p>mit Eva Georg: Sexualisierte Gewalt – (K)ein Thema für Freiwilligendienste? Möglichkeiten der Thematisierung sexualisierter Gewalt auf Seminaren. In: quix- kollektiv für kritische bildungsarbeit: Gender_Sexualitäten_Begehren in der machtkritischen und entwicklungspolitischen Bildungsarbeit. Wien, 2017.</p>
 </StyledText>
      </StyledTextsection>
-<Background/>
 <SingleImageRight
 
 src="/images/tastaturstift.png"

@@ -1,8 +1,7 @@
 
 import Navigation from '@/components/Navigation.jsx';
 import Image from 'next/image';
-import Background from '@/components/Background';
-import { StyledText, StyledTextsection, SingleImageLeft } from '@/components/Layout';
+import { StyledText, StyledTextsection, SingleImageLeft } from '@/styledcomponents/StyledEverything';
 
 
 export default function Wendo() {
@@ -31,7 +30,6 @@ width={228}
 height={360}
 alt="FIST"
 />
-   <Background/>
     </> 
 );
 };

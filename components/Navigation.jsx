@@ -1,42 +1,28 @@
 import Link from "next/link";
 import styled from "styled-components";
-import useLocalStorageState from "use-local-storage-state";
 export default function Navigation() {
-  const [url, setUrl] = useLocalStorageState("url", { defaultValue: "home" });
   return (
     <StyledNav>
       <StyledLink
         href="/"
-        onClick={() => {
-          setUrl("home");
-        }}
         aria-label="Home"
       >
       Home
       </StyledLink>
       <StyledLink
         href="/autorin"
-        onClick={() => {
-          setUrl("autorin");
-        }}
         aria-label="Buch und Texte"
       >
         Buch & Texte
       </StyledLink>
       <StyledLink
         href="/wendo"
-        onClick={() => {
-          setUrl("wendo");
-        }}
         aria-label="Wendo"
       >
         Wendo
       </StyledLink>
       <StyledLink
         href="/webdev"
-        onClick={() => {
-          setUrl("webdev");
-        }}
         aria-label="Webdevelopment"
       >
         Webdevelopment

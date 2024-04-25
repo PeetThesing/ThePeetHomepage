@@ -1,5 +1,4 @@
-import Background from "@/components/Background";
-import { SingleImageLeft, SingleImageRight, StyledText, StyledTextsection } from "@/components/Layout";
+import { SingleImageLeft, SingleImageRight, StyledText, StyledTextsection } from "@/styledcomponents/StyledEverything";
 import Navigation from "@/components/Navigation";
 
 export default function WebDev(){
@@ -26,7 +25,6 @@ alt="Laptop"
   height={474}
   alt="MAUS"
 />
-<Background/>
 </>
          
     )
