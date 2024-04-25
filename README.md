@@ -1,4 +1,11 @@
-# New Next Project
+# New Next Project : The Peet
+This is me, creating my personal website.
+### Tech Stack
+[React](https://react.dev/)
+
+[Next.js](https://nextjs.org/)
+
+[Styled Components](https://styled-components.com/docs)
 
 ### Local Development
 
