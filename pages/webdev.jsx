@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 
 export default function WebDev(){
     return (
-<><Navigation/>
+<>
 <StyledTextsection>
   <h2>Webentwicklung</h2>
 <StyledText>
